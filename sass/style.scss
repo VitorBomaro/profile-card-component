@@ -9,8 +9,8 @@ body {
   align-items: center;
   background: {
     color: $fundo_body;
-    image: url(/images/bg-pattern-top.svg),
-      url(/images/bg-pattern-bottom.svg);
+    image: url(../images/bg-pattern-top.svg),
+      url(../images/bg-pattern-bottom.svg);
     repeat: no-repeat, no-repeat;
     position: right 69vw bottom 20vh, left 66vw top 55vh;
   }
@@ -26,7 +26,7 @@ body {
     .image-header {
       width: 100%;
       height: 140px;
-      background-image: url(/images/bg-pattern-card.svg);
+      background-image: url(../images/bg-pattern-card.svg);
 
       border: {
         top-left-radius: 20px;
